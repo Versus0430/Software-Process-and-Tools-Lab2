@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DjangoModelDependency</ID>
+  <OriginalElement>#score</OriginalElement>
+  <nodes>
+    <node x="-274.0" y="86.0">user.models.User</node>
+    <node x="273.5" y="91.0">equation.models.Equation</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="equation.models.Equation" target="user.models.User" relationship="ForeignKey">
+      <point x="0.0" y="-93.0" />
+      <point x="408.5" y="348.0" />
+      <point x="-119.5" y="348.0" />
+      <point x="0.0" y="122.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="154.5" y="240.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+</Diagram>
+

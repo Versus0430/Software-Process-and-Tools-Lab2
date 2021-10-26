@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JavaScript-modules-diagram</ID>
+  <OriginalElement>/home/cyf/Projects/PycharmProjects/fuben/equation/templates</OriginalElement>
+  <nodes>
+    <node x="432.0" y="663.0">/home/cyf/Projects/PycharmProjects/fuben/equation/templates/equation.html</node>
+    <node x="773.0" y="383.0">/home/cyf/Projects/PycharmProjects/fuben/equation/templates/exception.html</node>
+    <node x="500.0" y="420.0">/home/cyf/Projects/PycharmProjects/fuben/equation/templates/result.html</node>
+    <node x="556.0" y="582.0">https://cdn.bootcss.com/jquery/3.3.1/jquery.js</node>
+    <node x="641.0" y="501.0">https://cdn.bootcss.com/popper.js/1.15.0/umd/popper.js</node>
+    <node x="340.0" y="339.0">https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css</node>
+    <node x="737.0" y="624.0">https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js</node>
+    <node x="713.0" y="901.0">{% static 'equation/css/equation.css' %}</node>
+    <node x="804.0" y="172.0">{% static 'result/css/result.css' %}</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="/home/cyf/Projects/PycharmProjects/fuben/equation/templates/equation.html" target="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/fuben/equation/templates/equation.html" target="https://cdn.bootcss.com/jquery/3.3.1/jquery.js" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/fuben/equation/templates/result.html" target="{% static 'result/css/result.css' %}" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/fuben/equation/templates/result.html" target="https://cdn.bootcss.com/jquery/3.3.1/jquery.js" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/fuben/equation/templates/exception.html" target="https://cdn.bootcss.com/popper.js/1.15.0/umd/popper.js" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/fuben/equation/templates/result.html" target="https://cdn.bootcss.com/popper.js/1.15.0/umd/popper.js" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/fuben/equation/templates/exception.html" target="https://cdn.bootcss.com/jquery/3.3.1/jquery.js" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/fuben/equation/templates/result.html" target="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/fuben/equation/templates/equation.html" target="https://cdn.bootcss.com/popper.js/1.15.0/umd/popper.js" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/fuben/equation/templates/equation.html" target="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/fuben/equation/templates/exception.html" target="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/fuben/equation/templates/exception.html" target="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/fuben/equation/templates/result.html" target="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/fuben/equation/templates/equation.html" target="{% static 'equation/css/equation.css' %}" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/fuben/equation/templates/exception.html" target="{% static 'result/css/result.css' %}" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.7631160572337043" showDependencies="false" x="520.5" y="520.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>All</Category>
+  </Categories>
+  <VISIBILITY>Details</VISIBILITY>
+</Diagram>
+

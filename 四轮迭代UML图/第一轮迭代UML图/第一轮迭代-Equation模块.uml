@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#/home/cyf/Projects/PycharmProjects/fuben/equation</OriginalElement>
+  <nodes>
+    <node x="1767.9140625000002" y="190.0">django.forms.forms.DeclarativeFieldsMetaclass</node>
+    <node x="2429.419270833333" y="90.0">typing.Iterator</node>
+    <node x="1022.4140625000002" y="278.0">equation.apps.EquationConfig</node>
+    <node x="569.4140625000002" y="278.0">django.contrib.admin.options.ModelAdmin</node>
+    <node x="1914.9192708333333" y="366.0">equation.forms.EquationForm</node>
+    <node x="242.41406250000023" y="278.0">equation.models.Equation</node>
+    <node x="900.6640625000002" y="90.0">django.forms.widgets.MediaDefiningClass</node>
+    <node x="2244.419270833333" y="90.0">typing.Iterable</node>
+    <node x="1343.9140625000002" y="190.0">django.db.migrations.migration.Migration</node>
+    <node x="617.4140625000002" y="366.0">equation.admin.EquationAdmin</node>
+    <node x="0.0" y="90.0">django.db.models.base.ModelBase</node>
+    <node x="226.91406250000023" y="190.0">django.db.models.base.Model</node>
+    <node x="2237.919270833333" y="366.0">equation.forms.UserForm</node>
+    <node x="2282.2083333333335" y="190.0">django.forms.forms.BaseForm</node>
+    <node x="547.9140625000002" y="190.0">django.contrib.admin.options.BaseModelAdmin</node>
+    <node x="1024.9140625000002" y="190.0">django.apps.config.AppConfig</node>
+    <node x="686.4140625000002" y="0.0">typing.Hashable</node>
+    <node x="758.4140625000002" y="90.0">object</node>
+    <node x="2103.9583333333335" y="278.0">django.forms.forms.Form</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="equation.forms.UserForm" target="django.forms.forms.Form" relationship="REALIZATION">
+      <point x="0.0" y="-19.0" />
+      <point x="2369.919270833333" y="341.0" />
+      <point x="2234.9583333333335" y="341.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="django.db.migrations.migration.Migration" target="typing.Hashable" relationship="INTERFACE">
+      <point x="101.0" y="-19.0" />
+      <point x="1646.9140625000002" y="159.0" />
+      <point x="1651.375" y="159.0" />
+      <point x="1651.375" y="64.0" />
+      <point x="775.9140625000002" y="64.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="django.db.migrations.migration.Migration" target="object" relationship="REALIZATION">
+      <point x="-101.0" y="-19.0" />
+      <point x="1444.9140625000002" y="169.0" />
+      <point x="1175.625" y="169.0" />
+      <point x="1175.625" y="149.0" />
+      <point x="803.9140625000002" y="149.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="equation.models.Equation" target="django.db.models.base.Model" relationship="REALIZATION">
+      <point x="0.0" y="-19.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="django.forms.forms.BaseForm" target="object" relationship="REALIZATION">
+      <point x="-76.0" y="-19.0" />
+      <point x="2358.2083333333335" y="169.0" />
+      <point x="1175.625" y="169.0" />
+      <point x="1175.625" y="149.0" />
+      <point x="803.9140625000002" y="149.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="django.db.models.base.Model" target="object" relationship="REALIZATION">
+      <point x="100.33333333333331" y="-19.0" />
+      <point x="477.7473958333335" y="169.0" />
+      <point x="1175.625" y="169.0" />
+      <point x="1175.625" y="149.0" />
+      <point x="803.9140625000002" y="149.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="object" target="typing.Hashable" relationship="INTERFACE">
+      <point x="0.0" y="-19.0" />
+      <point x="803.9140625000002" y="64.0" />
+      <point x="775.9140625000002" y="64.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="django.forms.forms.BaseForm" target="typing.Iterator" relationship="INTERFACE">
+      <point x="76.0" y="-19.0" />
+      <point x="2510.2083333333335" y="169.0" />
+      <point x="2439.2083333333335" y="169.0" />
+      <point x="2439.2083333333335" y="159.0" />
+      <point x="2511.419270833333" y="159.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="django.contrib.admin.options.BaseModelAdmin" target="object" relationship="REALIZATION">
+      <point x="114.25" y="-19.0" />
+      <point x="890.6640625000002" y="169.0" />
+      <point x="1175.625" y="169.0" />
+      <point x="1175.625" y="149.0" />
+      <point x="803.9140625000002" y="149.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="django.forms.forms.BaseForm" target="typing.Iterable" relationship="INTERFACE">
+      <point x="76.0" y="-19.0" />
+      <point x="2510.2083333333335" y="169.0" />
+      <point x="2439.2083333333335" y="169.0" />
+      <point x="2439.2083333333335" y="159.0" />
+      <point x="2326.919270833333" y="159.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="django.contrib.admin.options.BaseModelAdmin" target="django.forms.widgets.MediaDefiningClass" relationship="INSTANCEOF">
+      <point x="-114.25" y="-19.0" />
+      <point x="662.1640625000002" y="159.0" />
+      <point x="1001.4140625000002" y="159.0" />
+      <point x="-100.75" y="19.0" />
+    </edge>
+    <edge source="equation.forms.EquationForm" target="django.forms.forms.Form" relationship="REALIZATION">
+      <point x="0.0" y="-19.0" />
+      <point x="2066.419270833333" y="341.0" />
+      <point x="2234.9583333333335" y="341.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="django.apps.config.AppConfig" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-19.0" />
+      <point x="1174.4140625000002" y="169.0" />
+      <point x="1175.625" y="169.0" />
+      <point x="1175.625" y="149.0" />
+      <point x="803.9140625000002" y="149.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="equation.apps.EquationConfig" target="django.apps.config.AppConfig" relationship="REALIZATION">
+      <point x="0.0" y="-19.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="django.contrib.admin.options.ModelAdmin" target="django.contrib.admin.options.BaseModelAdmin" relationship="REALIZATION">
+      <point x="0.0" y="-19.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="django.forms.forms.Form" target="django.forms.forms.BaseForm" relationship="REALIZATION">
+      <point x="65.5" y="-19.0" />
+      <point x="2300.4583333333335" y="253.0" />
+      <point x="2434.2083333333335" y="253.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="django.db.models.base.Model" target="typing.Hashable" relationship="INTERFACE">
+      <point x="0.0" y="-19.0" />
+      <point x="377.4140625000002" y="169.0" />
+      <point x="353.4999999999999" y="169.0" />
+      <point x="353.4999999999999" y="64.0" />
+      <point x="775.9140625000002" y="64.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="django.db.models.base.Model" target="django.db.models.base.ModelBase" relationship="INSTANCEOF">
+      <point x="-100.33333333333331" y="-19.0" />
+      <point x="277.08072916666697" y="169.0" />
+      <point x="171.5" y="169.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="django.forms.forms.Form" target="django.forms.forms.DeclarativeFieldsMetaclass" relationship="INSTANCEOF">
+      <point x="-65.5" y="-19.0" />
+      <point x="2169.4583333333335" y="253.0" />
+      <point x="1994.4140625000002" y="253.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="equation.admin.EquationAdmin" target="django.contrib.admin.options.ModelAdmin" relationship="REALIZATION">
+      <point x="0.0" y="-19.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="django.forms.forms.DeclarativeFieldsMetaclass" target="django.forms.widgets.MediaDefiningClass" relationship="REALIZATION">
+      <point x="-2.2737367544323206E-13" y="-19.0" />
+      <point x="1994.4140625" y="149.0" />
+      <point x="1202.9140625000002" y="149.0" />
+      <point x="100.75" y="19.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.423106350420811" showDependencies="false" x="1297.0" y="202.0" />
+  <SelectedNodes />
+  <Categories />
+</Diagram>
+

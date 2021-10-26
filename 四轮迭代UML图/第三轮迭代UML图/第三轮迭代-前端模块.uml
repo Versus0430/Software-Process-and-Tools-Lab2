@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JavaScript-modules-diagram</ID>
+  <OriginalElement>/home/cyf/Projects/PycharmProjects/score/equation/templates</OriginalElement>
+  <nodes>
+    <node x="60.0" y="357.0">/home/cyf/Projects/PycharmProjects/score/equation/templates/equation.html</node>
+    <node x="386.0" y="106.0">/home/cyf/Projects/PycharmProjects/score/equation/templates/exception.html</node>
+    <node x="137.0" y="538.0">/home/cyf/Projects/PycharmProjects/score/equation/templates/login.html</node>
+    <node x="524.0" y="377.0">/home/cyf/Projects/PycharmProjects/score/equation/templates/notebook.html</node>
+    <node x="225.0" y="187.0">/home/cyf/Projects/PycharmProjects/score/equation/templates/result.html</node>
+    <node x="341.0" y="628.0">/home/cyf/Projects/PycharmProjects/score/equation/templates/student.html</node>
+    <node x="461.0" y="780.0">http://cdn.datatables.net/1.10.15/css/jquery.dataTables.css</node>
+    <node x="651.0" y="699.0">http://cdn.datatables.net/1.10.15/js/jquery.dataTables.js</node>
+    <node x="686.0" y="490.0">http://code.jquery.com/jquery-1.10.2.min.js</node>
+    <node x="276.0" y="455.0">https://cdn.bootcss.com/jquery/3.3.1/jquery.js</node>
+    <node x="362.0" y="359.0">https://cdn.bootcss.com/popper.js/1.15.0/umd/popper.js</node>
+    <node x="545.0" y="250.1379310344828">https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css</node>
+    <node x="430.0" y="462.0">https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js</node>
+    <node x="5.0" y="150.0">{% static 'equation/css/equation.css' %}</node>
+    <node x="0.0" y="619.0">{% static 'login/css/login.css' %}</node>
+    <node x="742.0" y="203.0">{% static 'notebook/css/notebook.css' %}</node>
+    <node x="398.0" y="0.0">{% static 'result/css/result.css' %}</node>
+    <node x="230.0" y="815.0">{% static 'student/css/student.css' %}</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/notebook.html" target="http://code.jquery.com/jquery-1.10.2.min.js" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/notebook.html" target="{% static 'notebook/css/notebook.css' %}" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/result.html" target="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/notebook.html" target="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/student.html" target="http://code.jquery.com/jquery-1.10.2.min.js" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/student.html" target="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/exception.html" target="https://cdn.bootcss.com/popper.js/1.15.0/umd/popper.js" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/student.html" target="http://cdn.datatables.net/1.10.15/js/jquery.dataTables.js" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/notebook.html" target="http://cdn.datatables.net/1.10.15/js/jquery.dataTables.js" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/exception.html" target="{% static 'result/css/result.css' %}" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/result.html" target="{% static 'result/css/result.css' %}" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/result.html" target="https://cdn.bootcss.com/jquery/3.3.1/jquery.js" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/notebook.html" target="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/student.html" target="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/exception.html" target="https://cdn.bootcss.com/jquery/3.3.1/jquery.js" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/result.html" target="https://cdn.bootcss.com/popper.js/1.15.0/umd/popper.js" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/login.html" target="{% static 'login/css/login.css' %}" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/equation.html" target="https://cdn.bootcss.com/popper.js/1.15.0/umd/popper.js" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/notebook.html" target="https://cdn.bootcss.com/popper.js/1.15.0/umd/popper.js" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/exception.html" target="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/student.html" target="https://cdn.bootcss.com/popper.js/1.15.0/umd/popper.js" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/equation.html" target="{% static 'equation/css/equation.css' %}" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/student.html" target="https://cdn.bootcss.com/jquery/3.3.1/jquery.js" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/equation.html" target="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/equation.html" target="https://cdn.bootcss.com/jquery/3.3.1/jquery.js" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/result.html" target="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/login.html" target="https://cdn.bootcss.com/popper.js/1.15.0/umd/popper.js" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/notebook.html" target="https://cdn.bootcss.com/jquery/3.3.1/jquery.js" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/login.html" target="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/login.html" target="https://cdn.bootcss.com/jquery/3.3.1/jquery.js" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/student.html" target="http://cdn.datatables.net/1.10.15/css/jquery.dataTables.css" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/notebook.html" target="http://cdn.datatables.net/1.10.15/css/jquery.dataTables.css" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/exception.html" target="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/login.html" target="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/student.html" target="{% static 'student/css/student.css' %}" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/home/cyf/Projects/PycharmProjects/score/equation/templates/equation.html" target="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.778" showDependencies="false" x="520.074816062406" y="427.2922391631947" />
+  <SelectedNodes />
+  <Categories>
+    <Category>All</Category>
+  </Categories>
+  <VISIBILITY>Details</VISIBILITY>
+</Diagram>
+

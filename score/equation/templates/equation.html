@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- 上述meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{% static 'equation/css/equation.css' %}" rel="stylesheet">
+    <title>快乐假期</title>
+</head>
+
+<body>
+<div class="container" style="margin: 15% 40%; margin-top: 120px; margin-left: 500px;">
+
+    <h1 style="margin-left: 145px;margin-top: 40px;">{{ question }}</h1>
+    <form ROLE="form" action="../../judge/{{ account }}/{{ question }}/{{ right_answer }}" method="POST">
+        {% csrf_token %}
+        <div style="margin-top: 30px;margin-left: 80px;" size="50">
+            {{ equation_form }}
+        </div> <br/>
+        <button type='submit' class="btn btn-primary" style="margin-left: 150px;margin-top: 20px; height:40px;width:150px;"> 提交</button>
+    </form>
+    <a href="../../" class="btn btn-primary" style="margin-left: 150px;margin-top: 20px; height:40px;width:150px;">离开</a>
+
+</div>
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    {#    以下三者的引用顺序是固定的#}
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.15.0/umd/popper.js"></script>
+    <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>

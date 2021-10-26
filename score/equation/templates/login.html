@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" xmlns:size="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- 上述meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{% static 'login/css/login.css' %}" rel="stylesheet">
+    <title>快乐假期</title>
+</head>
+
+<body>
+    <div class="container" style="margin: 15% 40%;margin-top: 160px">
+        <h1>欢迎开启算术之旅！</h1>
+        <form class="form-login" ROLE="form" action="" method="POST">
+            {% csrf_token %}
+            {{ user_form.non_field_errors }}
+            <div class="form-group" style="margin-top: 20px;margin-left: 30px;">
+                {{ user_form.US_account.errors }}
+                <label for="{{ user_form.US_account.id_for_label }}">用户名：</label> <br/>
+                {{ user_form.US_account }}
+            </div>
+            <div class="form-group" style="margin-left: 30px;">
+                {{ user_form.US_password.errors }}
+                <label for="{{ user_form.US_password.id_for_label }}">密码：</label> <br/>
+                {{ user_form.US_password }}
+            </div>
+            <input class="btn btn-primary" type="submit" value="提交" style="font-weight: bold;margin-left: 80px;margin-top: 10px;width:80px;">
+        </form>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    {#    以下三者的引用顺序是固定的#}
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.15.0/umd/popper.js"></script>
+    <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+

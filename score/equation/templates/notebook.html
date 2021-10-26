@@ -1,0 +1,54 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- 上述meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{% static 'notebook/css/notebook.css' %}" rel="stylesheet">
+    <title>快乐假期</title>
+
+    <!--第一步：引入Javascript / CSS （CDN）-->
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.15/css/jquery.dataTables.css">
+    <!-- jQuery -->
+    <script type="text/javascript" charset="utf8" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <!-- DataTables -->
+    <script type="text/javascript" charset="utf8" src="http://cdn.datatables.net/1.10.15/js/jquery.dataTables.js"></script>
+</head>
+<body>
+<div class="container" style="margin: 15% 40%; margin-top: 120px; margin-left: 500px;">
+    <h1 style="margin-top: 20px;margin-left: 165px;color: crimson;display: inline-block"><strong>错题集</strong></h1>
+    <a href="../../exercise/{{ account }}" class="btn btn-primary" style="margin-top:10px;margin-left: 220px; height:40px;width:150px;display: inline-block">做题实战</a>
+    <table id="table_id_example" class="display" style="width:100%;margin-left: -260px;background-color: azure;margin-top: 10px;">
+        <thead>
+            <tr>
+                <td style="text-align: center"><b>题目</b></td>
+                <td style="text-align: center"><b>错误答案</b></td>
+                <td style="text-align: center"><b>日期</b></td>
+            </tr>
+        </thead>
+        <tbody>
+            {% for wrong_equation in wrong_equation_book %}
+                <tr>
+                    <td style="text-align: center">{{ wrong_equation.0 }}</td>
+                    <td style="text-align: center">{{ wrong_equation.1 }}</td>
+                    <td style="text-align: center">{{ wrong_equation.2 }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+</div>
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    {#    以下三者的引用顺序是固定的#}
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.15.0/umd/popper.js"></script>
+    <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>

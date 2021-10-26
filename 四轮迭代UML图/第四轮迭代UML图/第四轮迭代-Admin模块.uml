@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#/home/cyf/Projects/PycharmProjects/score/equation/admin.py</OriginalElement>
+  <nodes>
+    <node x="6.5" y="1607.0">django.contrib.admin.options.ModelAdmin</node>
+    <node x="155.0" y="733.0">django.contrib.admin.options.BaseModelAdmin</node>
+    <node x="0.0" y="366.5">django.forms.widgets.MediaDefiningClass</node>
+    <node x="91.23956334847128" y="3715.0164169317823">equation.admin.EquationAdmin</node>
+    <node x="486.0" y="0.0">typing.Hashable</node>
+    <node x="423.0" y="120.0">object</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="object" target="typing.Hashable" relationship="INTERFACE">
+      <point x="0.0" y="-281.5" />
+      <point x="0.0" y="35.0" />
+    </edge>
+    <edge source="django.contrib.admin.options.BaseModelAdmin" target="object" relationship="REALIZATION">
+      <point x="116.75" y="-412.0" />
+      <point x="505.25" y="708.0" />
+      <point x="575.5" y="708.0" />
+      <point x="0.0" y="281.5" />
+    </edge>
+    <edge source="django.contrib.admin.options.ModelAdmin" target="django.contrib.admin.options.BaseModelAdmin" relationship="REALIZATION">
+      <point x="0.0" y="-963.0" />
+      <point x="0.0" y="412.0" />
+    </edge>
+    <edge source="django.contrib.admin.options.BaseModelAdmin" target="django.forms.widgets.MediaDefiningClass" relationship="INSTANCEOF">
+      <point x="-116.75" y="-412.0" />
+      <point x="271.75" y="708.0" />
+      <point x="201.5" y="708.0" />
+      <point x="0.0" y="35.0" />
+    </edge>
+    <edge source="equation.admin.EquationAdmin" target="django.contrib.admin.options.ModelAdmin" relationship="REALIZATION">
+      <point x="0.0" y="-35.0" />
+      <point x="250.23956334847128" y="3558.0" />
+      <point x="388.5" y="3558.0" />
+      <point x="0.0" y="963.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.37107269262183507" showDependencies="false" x="539.6768688055836" y="2312.125243038996" />
+  <SelectedNodes>
+    <node>equation.admin.EquationAdmin</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+</Diagram>
+

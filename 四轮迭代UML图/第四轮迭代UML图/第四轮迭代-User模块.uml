@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#/home/cyf/Projects/PycharmProjects/score/user</OriginalElement>
+  <nodes>
+    <node x="2023.68458781362" y="274.0">import_export.admin.ImportExportMixinBase</node>
+    <node x="3125.18458781362" y="182.0">import_export.resources.ModelDeclarativeMetaclass</node>
+    <node x="1622.68458781362" y="274.0">import_export.mixins.BaseImportMixin</node>
+    <node x="690.1845878136198" y="462.0">django.contrib.admin.options.ModelAdmin</node>
+    <node x="2480.68458781362" y="274.0">user.apps.UserConfig</node>
+    <node x="1246.68458781362" y="374.0">import_export.admin.ExportMixin</node>
+    <node x="1354.7495519713261" y="182.0">import_export.mixins.BaseImportExportMixin</node>
+    <node x="1819.9995519713261" y="374.0">import_export.admin.ImportMixin</node>
+    <node x="55.684587813620055" y="182.0">django.db.models.base.Model</node>
+    <node x="110.68458781362006" y="274.0">user.models.User</node>
+    <node x="668.6845878136198" y="374.0">django.contrib.admin.options.BaseModelAdmin</node>
+    <node x="2443.18458781362" y="182.0">django.apps.config.AppConfig</node>
+    <node x="2762.18458781362" y="182.0">import_export.resources.Resource</node>
+    <node x="2854.124551971326" y="90.0">import_export.resources.DeclarativeMetaclass</node>
+    <node x="297.60125448028657" y="0.0">typing.Hashable</node>
+    <node x="2920.6532258064517" y="274.0">import_export.resources.ModelResource</node>
+    <node x="801.6845878136199" y="274.0">django.forms.widgets.MediaDefiningClass</node>
+    <node x="376.68458781362006" y="182.0">django.db.migrations.migration.Migration</node>
+    <node x="1415.6245519713261" y="638.0">user.admin.UserAdmin</node>
+    <node x="10.5" y="90.0">django.db.models.base.ModelBase</node>
+    <node x="2983.1532258064517" y="374.0">user.admin.UserResources</node>
+    <node x="1304.6245519713261" y="550.0">import_export.admin.ImportExportModelAdmin</node>
+    <node x="1591.2495519713261" y="462.0">import_export.admin.ImportExportMixin</node>
+    <node x="1224.68458781362" y="274.0">import_export.mixins.BaseExportMixin</node>
+    <node x="1567.93458781362" y="90.0">object</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="import_export.admin.ImportMixin" target="import_export.mixins.BaseImportMixin" relationship="REALIZATION">
+      <point x="0.0" y="-19.0" />
+      <point x="1988.4995519713261" y="333.0" />
+      <point x="1813.18458781362" y="333.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="django.db.migrations.migration.Migration" target="object" relationship="REALIZATION">
+      <point x="101.0" y="-19.0" />
+      <point x="679.68458781362" y="160.0" />
+      <point x="1613.43458781362" y="160.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="django.db.migrations.migration.Migration" target="typing.Hashable" relationship="INTERFACE">
+      <point x="-101.0" y="-19.0" />
+      <point x="477.68458781362006" y="150.0" />
+      <point x="512.8508064516128" y="150.0" />
+      <point x="512.8508064516128" y="64.0" />
+      <point x="387.10125448028657" y="64.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="django.db.models.base.Model" target="object" relationship="REALIZATION">
+      <point x="100.33333333333331" y="-19.0" />
+      <point x="306.5179211469533" y="160.0" />
+      <point x="1613.43458781362" y="160.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="import_export.admin.ExportMixin" target="import_export.mixins.BaseExportMixin" relationship="REALIZATION">
+      <point x="0.0" y="-19.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="user.apps.UserConfig" target="django.apps.config.AppConfig" relationship="REALIZATION">
+      <point x="0.0" y="-19.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="user.admin.UserAdmin" target="import_export.admin.ImportExportModelAdmin" relationship="REALIZATION">
+      <point x="0.0" y="-19.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="user.admin.UserResources" target="import_export.resources.ModelResource" relationship="REALIZATION">
+      <point x="0.0" y="-19.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="import_export.admin.ImportExportMixin" target="import_export.admin.ExportMixin" relationship="REALIZATION">
+      <point x="0.0" y="-19.0" />
+      <point x="1788.7495519713261" y="437.0" />
+      <point x="1413.68458781362" y="437.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="import_export.admin.ImportExportMixin" target="import_export.admin.ImportMixin" relationship="REALIZATION">
+      <point x="0.0" y="-19.0" />
+      <point x="1788.7495519713261" y="437.0" />
+      <point x="1988.4995519713261" y="437.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="import_export.mixins.BaseImportMixin" target="import_export.mixins.BaseImportExportMixin" relationship="REALIZATION">
+      <point x="0.0" y="-19.0" />
+      <point x="1813.18458781362" y="247.0" />
+      <point x="1574.2495519713261" y="247.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="import_export.mixins.BaseExportMixin" target="import_export.mixins.BaseImportExportMixin" relationship="REALIZATION">
+      <point x="0.0" y="-19.0" />
+      <point x="1413.68458781362" y="247.0" />
+      <point x="1574.2495519713261" y="247.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="user.models.User" target="django.db.models.base.Model" relationship="REALIZATION">
+      <point x="0.0" y="-19.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="import_export.resources.ModelDeclarativeMetaclass" target="import_export.resources.DeclarativeMetaclass" relationship="REALIZATION">
+      <point x="0.0" y="-19.0" />
+      <point x="3375.68458781362" y="160.0" />
+      <point x="3189.374551971326" y="160.0" />
+      <point x="111.75" y="19.0" />
+    </edge>
+    <edge source="import_export.mixins.BaseImportExportMixin" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-19.0" />
+      <point x="1574.2495519713261" y="160.0" />
+      <point x="1613.43458781362" y="160.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="import_export.admin.ExportMixin" target="import_export.admin.ImportExportMixinBase" relationship="REALIZATION">
+      <point x="0.0" y="-19.0" />
+      <point x="1413.68458781362" y="343.0" />
+      <point x="2242.18458781362" y="343.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="import_export.admin.ImportExportModelAdmin" target="import_export.admin.ImportExportMixin" relationship="REALIZATION">
+      <point x="0.0" y="-19.0" />
+      <point x="1534.6245519713261" y="525.0" />
+      <point x="1788.7495519713261" y="525.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="import_export.admin.ImportExportModelAdmin" target="django.contrib.admin.options.ModelAdmin" relationship="REALIZATION">
+      <point x="0.0" y="-19.0" />
+      <point x="1534.6245519713261" y="525.0" />
+      <point x="897.1845878136198" y="525.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="django.db.models.base.Model" target="typing.Hashable" relationship="INTERFACE">
+      <point x="-100.33333333333331" y="-19.0" />
+      <point x="105.8512544802868" y="160.0" />
+      <point x="0.0" y="160.0" />
+      <point x="0.0" y="64.0" />
+      <point x="387.10125448028657" y="64.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="django.db.models.base.Model" target="django.db.models.base.ModelBase" relationship="INSTANCEOF">
+      <point x="0.0" y="-19.0" />
+      <point x="206.18458781362006" y="160.0" />
+      <point x="182.0" y="160.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="import_export.resources.Resource" target="import_export.resources.DeclarativeMetaclass" relationship="INSTANCEOF">
+      <point x="85.75" y="-19.0" />
+      <point x="3019.43458781362" y="160.0" />
+      <point x="2965.874551971326" y="160.0" />
+      <point x="-111.75" y="19.0" />
+    </edge>
+    <edge source="import_export.resources.ModelResource" target="import_export.resources.ModelDeclarativeMetaclass" relationship="INSTANCEOF">
+      <point x="99.25" y="-19.0" />
+      <point x="3218.4032258064517" y="247.0" />
+      <point x="3375.68458781362" y="247.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="object" target="typing.Hashable" relationship="INTERFACE">
+      <point x="0.0" y="-19.0" />
+      <point x="1613.43458781362" y="64.0" />
+      <point x="387.10125448028657" y="64.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="django.contrib.admin.options.BaseModelAdmin" target="object" relationship="REALIZATION">
+      <point x="-114.24999999999989" y="-19.0" />
+      <point x="782.9345878136199" y="353.0" />
+      <point x="791.1845878136199" y="353.0" />
+      <point x="791.1845878136199" y="160.0" />
+      <point x="1613.43458781362" y="160.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="import_export.admin.ImportExportMixinBase" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-19.0" />
+      <point x="2242.18458781362" y="160.0" />
+      <point x="1613.43458781362" y="160.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="django.contrib.admin.options.BaseModelAdmin" target="django.forms.widgets.MediaDefiningClass" relationship="INSTANCEOF">
+      <point x="114.25000000000011" y="-19.0" />
+      <point x="1011.4345878136199" y="353.0" />
+      <point x="1003.1845878136199" y="353.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="django.apps.config.AppConfig" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-19.0" />
+      <point x="2592.68458781362" y="160.0" />
+      <point x="1613.43458781362" y="160.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="import_export.resources.Resource" target="object" relationship="REALIZATION">
+      <point x="-85.75" y="-19.0" />
+      <point x="2847.93458781362" y="160.0" />
+      <point x="1613.43458781362" y="160.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="import_export.admin.ImportMixin" target="import_export.admin.ImportExportMixinBase" relationship="REALIZATION">
+      <point x="0.0" y="-19.0" />
+      <point x="1988.4995519713261" y="353.0" />
+      <point x="2242.18458781362" y="353.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="django.contrib.admin.options.ModelAdmin" target="django.contrib.admin.options.BaseModelAdmin" relationship="REALIZATION">
+      <point x="1.1368683772161603E-13" y="-19.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="import_export.resources.ModelResource" target="import_export.resources.Resource" relationship="REALIZATION">
+      <point x="-99.25" y="-19.0" />
+      <point x="3019.9032258064517" y="247.0" />
+      <point x="2933.68458781362" y="247.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.30326295585412666" showDependencies="false" x="2377.367088607595" y="338.0" />
+  <SelectedNodes />
+  <Categories />
+</Diagram>
+
